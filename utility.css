@@ -1,0 +1,89 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.border{
+    border: solid red;
+    margin: 3px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 10px;
+}
+.m-1{
+    margin: 5px;
+}
+.m-2{
+    margin: 7px;
+}
+.m-3{
+    margin: 10px;
+}
+
+.p-1{
+    padding: 10px;
+}
+.bg-litegrey{
+    background-color: #242424;
+}
+
+::-webkit-scrollbar {
+    width: 12px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #333; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 6px; 
+    border: 3px solid #333; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; 
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin; 
+    scrollbar-color: #888 #333; 
+}
+
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #333; 
+}
+
+/* For Internet Explorer 10+ */
+body {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+    scrollbar-face-color: #888; 
+    scrollbar-track-color: #333; 
+}
+
+
+body {
+    overflow-y: scroll;
+}
+.noninvert{
+    filter: invert(1);
+}
